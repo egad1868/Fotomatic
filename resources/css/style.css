@@ -120,10 +120,9 @@ header .mobile {
   align-items: flex-start;
   height: 43.5rem;
   background-image: url(../images/banner-landingpage.jpg);
-  background-position: top;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: contain;
-
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -231,6 +230,10 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+}
+
+.feature .content {
+  padding: 2.5rem;
 }
 
 .feature .image-container {
